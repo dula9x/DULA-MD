@@ -60,7 +60,7 @@ cmd(
 
       // Prepare and send the message with video details
       let desc = `
-*❤️ ROBIN FB VIDEO DOWNLOADER ❤️*
+*❤️ 𝙳𝚞𝚕𝚊 𝙼𝙳 FB VIDEO DOWNLOADER ❤️*
 
 👻 *Title*: ${title || "Unknown"}
 👻 *Quality*: ${hd ? "HD Available" : "SD Only"}
@@ -71,7 +71,7 @@ cmd(
         from,
         {
           image: {
-            url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20fb-1.jpg",
+            url: "https://raw.githubusercontent.com/PODDAe/DULA-MD/refs/heads/main/20250704_180935.png",
           },
           caption: desc,
         },
