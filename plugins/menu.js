@@ -10,7 +10,7 @@ cmd(
     filename: __filename,
   },
   async (
-    robin,
+    dula,
     mek,
     m,
     {
@@ -84,15 +84,15 @@ ${menu.group}
 ${menu.search}
 
 
-🥶𝐌𝐚𝐝𝐞 𝐛𝐲 𝐒_𝐈_𝐇_𝐈_𝐋_𝐄_𝐋🥶
+🥶𝐌𝐚𝐝𝐞 𝐛𝐲 𝙳𝚞𝚕𝚊 𝟿𝚡🥶
 
-> ROBIN MENU MSG
+> 𝙳𝚞𝚕𝚊 𝙼𝙳 MENU MSG
 `;
-      await robin.sendMessage(
+      await 𝙳𝚞𝚕𝚊 𝙼𝙳.sendMessage(
         from,
         {
           image: {
-            url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20menu.jpg",
+            url: "https://raw.githubusercontent.com/PODDAe/DULA-MD/refs/heads/main/20250704_180935.png",
           },
           caption: madeMenu,
         },
