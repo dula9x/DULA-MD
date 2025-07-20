@@ -61,7 +61,7 @@ async function connectToWA() {
   const prefix = config.PREFIX;
   //===========================
 
-  console.log("Connecting ❤️𝐑_𝐎_𝐁_𝐈_𝐍❤️");
+  console.log("Connecting ❤️𝙳𝚞𝚕𝚊 𝙼𝙳❤️");
   const { state, saveCreds } = await useMultiFileAuthState(
     __dirname + "/auth_info_baileys/"
   );
@@ -402,7 +402,7 @@ async function connectToWA() {
   });
 }
 app.get("/", (req, res) => {
-  res.send("hey, ❤️𝐑_𝐎_𝐁_𝐈_𝐍❤️ started✅");
+  res.send("hey, ❤️𝙳𝚞𝚕𝚊 𝙼𝙳❤️ started✅");
 });
 app.listen(port, () =>
   console.log(`Server listening on port http://localhost:${port}`)
