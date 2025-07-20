@@ -92,10 +92,10 @@ async function connectToWA() {
           require("./plugins/" + plugin);
         }
       });
-      console.log("❤️𝐑_𝐎_𝐁_𝐈_𝐍❤️ installed successful ✅");
-      console.log("❤️𝐑_𝐎_𝐁_𝐈_𝐍❤️ connected to whatsapp ✅");
+      console.log("❤️𝙳𝚞𝚕𝚊 𝙼𝙳❤️ installed successful ✅");
+      console.log("❤️𝙳𝚞𝚕𝚊 𝙼𝙳❤️ connected to whatsapp ✅");
 
-      let up = `❤️𝐑_𝐎_𝐁_𝐈_𝐍❤️ connected successful ✅`;
+      let up = `❤️𝙳𝚞𝚕𝚊 𝙼𝙳❤️ connected successful ✅`;
       let up1 = `Hello Robin, I made bot successful`;
 
       robin.sendMessage(ownerNumber + "@s.whatsapp.net", {
@@ -122,7 +122,11 @@ async function connectToWA() {
         : mek.message;
     if (
       mek.key &&
-      mek.key.remoteJid === "status@broadcast") return  
+      mek.key.remoteJid === "status@broadcast") &&
+      config.AUTO_READ_STATUS === "thrue"
+        ) {
+    await 𝙳𝚞𝚕𝚊 𝙼𝙳.readMassages([mek.key]);
+  }
     
     const m = sms(robin, mek);
     const type = getContentType(mek.message);
