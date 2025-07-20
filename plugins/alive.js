@@ -5,6 +5,7 @@ cmd({
     pattern: "alive",
     desc: "Check bot online or no.",
     alias:["bot"."𝙳𝚞𝚕𝚊 𝟿𝚡 𝙼𝙳"],
+    react: "✌️",
     category: "main",
     filename: __filename
 },
